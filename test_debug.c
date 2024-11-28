@@ -331,7 +331,7 @@ int main(){
             }
             printf("Input image data written to SRAM_0 successfully.\n");
             
-            printf("Starting to write convolution weights to FPGA SRAM_1...\n")
+            printf("Starting to write convolution weights to FPGA SRAM_1...\n");
             for (yjc = 0; yjc<27;yjc++){
                 *(sram_ptr_1 + yjc) = weights_conv_fpga[yjc];
                 printf("Writing to SRAM_1: index %d, value %d\n", yjc, weights_conv_fpga[yjc]);
