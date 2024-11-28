@@ -244,7 +244,7 @@ int main(){
 
     float output_fc[NUM_CLASSES]; 
 
-    loadBMP("./test.bmp", input_image, 28, 28);
+    loadBMP("./mnist_digit_5.bmp", input_image, 28, 28);
     read_csv("./fc1_weights.csv", weights_fc_fp, 10, 507);
     read_csv("./conv1_weight.csv", weights_conv_fp, 9, 3);
 
