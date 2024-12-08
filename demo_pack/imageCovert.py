@@ -12,7 +12,7 @@ DATA_NUM = 3999 # from 0 to 9999
 # Parameters
 DEC_BITS = 9
 
-img = Image.open('C:\Git_proj\magitionzz\demo_pack/image_data/image_raw55.png')
+img = Image.open('C:\Git_proj\magitionzz\demo_pack/image_data/image_raw66.png')
 transform = transforms.Grayscale()
 img = transform(img)
 # img.show()
